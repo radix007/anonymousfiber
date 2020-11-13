@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,7 +29,7 @@ h2{
     margin-right: 17rem;
 }
 .heading{
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .container{
     background-color:transparent;
@@ -40,7 +38,7 @@ h2{
 { 
    
     width: 100%;
-    height: 50%;
+    height: 30%;
     display: flex;
     background-color: rgb(255, 255, 255);
     flex-direction: column;
@@ -50,6 +48,7 @@ h2{
 }
 
 .form{
+    position: relative;
     background-color: green;
     margin-top: 10%;
     display: flex;
@@ -88,7 +87,7 @@ input[type=button]
 .features{
     width: 100%;
     height: 100%;
-    margin-top: 5%;
+    margin-top: 2%;
     background-color: #e7e7e7;
 }
 .features h2{
@@ -117,16 +116,50 @@ h3{
 }
 
 .text{    
-    width:100%;
+    padding: 2% 5%;
+    width:50%;
     font-family: var(--body-font);
-    font-size: 1.5rem;
-    flex: 1;
+    font-size: 1.5rem; 
     
     
 }
-.image{
-    flex: 1;
-    padding: 10%;
-    width: 100%;
-    height: 100%;
+.image{    
+    padding: 2% 10%;
+    width: 50%;
+
+}
+.perks{
+    padding: 1% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.perks h3{
+    text-align: center;
+}
+.card
+{
+    padding-bottom: 10%;
+    font-family: var(--body-font);
+    font-size: 1.5rem;
+    width: 30%;
+    text-align: center;
+}
+.card img{
+    display: block;
+    height: 10em;
+    width: auto;
+    margin: auto;
+    padding: 1%;
+}
+.perks-heading h2
+{
+    text-align: center;
+    font-size: 6em;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.perks-heading h2 span{
+    color: green;
 }
