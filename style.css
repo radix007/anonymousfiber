@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font: 'Roboto Mono', monospace;
+    --body-font: 'Cabin', sans-serif;
+    --main-font-color-dark: #252525;
+    --secondary-font-color: #c59d5f;
+    --body-font-color: #515151;
+}
+html{
+    font-family: var(--font);
+    
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+h1{
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 7em;
+    
+}
+h2{
+    font-weight: 400;
+    font-size: 3em;
+    margin-right: 17rem;
+}
+.heading{
+    margin-top: 20%;
+}
+.container{
+    background-color:transparent;
+}
+.hero
+{ 
+   
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+}
+
+.form{
+    background-color: green;
+    margin-top: 10%;
+    display: flex;
+    height: 50%;
+    width: 75%;
+    padding: 3px 0px;
+    justify-content: center;
+    border-radius: 10px;
+
+    
+    
+}
+form
+{
+    width: 100%;
+}
+input{
+    margin: 10px 2px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box;
+    border-color: green;
+    color: green;
+    width: 50%;
+}
+input:nth-child(2)
+{
+    width: 10%;
+}
+input[type=button]
+{
+    width: 15%;
+}
+.features{
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    background-color: #e7e7e7;
+}
+.features h2{
+    padding: 5%;
+    width: 100%;
+    text-align: center;
+
+}
+.features h2 span{
+    color: green;
+}
+h3{
+    font-size: 3rem;
+    font-weight: 200;
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.content{
+    display: flex;
+    justify-content:center;
+    text-align: left;
+    margin: 10px 10%;
+    align-items: center;
+    
+}
+
+.text{    
+    width:100%;
+    font-family: var(--body-font);
+    font-size: 1.5rem;
+    flex: 1;
+    
+    
+}
+.image{
+    flex: 1;
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+}
