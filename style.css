@@ -224,6 +224,7 @@ h3{
     background-color: white;
     border:none;
     padding: 1em;
+    box-shadow: #b4b4b4 0px 0px 20px;
 }
 .people img{
     display:block;
