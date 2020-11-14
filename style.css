@@ -133,7 +133,6 @@ input[type=button]:hover,input[type=button]:focus
 h3{
     font-size: 3em;
     font-weight: 200;
-    margin: 20px 0px;
     text-align: left;
 }
 
@@ -141,7 +140,7 @@ h3{
     display: flex;
     justify-content:center;
     text-align: left;
-    margin: 10px 10%;
+    margin: 10px 5%;
     align-items: center;
     
 }
@@ -220,11 +219,15 @@ h3{
     margin: 2em;    
     font-family: var(--body-font);
     font-size: 1.5rem;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: white;
     border:none;
     padding: 1em;
     box-shadow: #b4b4b4 0px 0px 20px;
+    transition: .5s;
+}
+.people:hover{
+    transform: scale(1.1);
 }
 .people img{
     display:block;
@@ -245,4 +248,71 @@ h3{
     padding: 1em;
     font-size: 2rem;
     padding-bottom: 0em;
+}
+.plans .container{
+    display:flex;
+    justify-content: center;
+}
+
+.plans h2{
+    text-align: center;
+    margin: auto;
+    padding: 1.5em;
+}
+.plancard 
+{
+    flex: 1;
+    text-align: left;
+    border: #252525 2px solid;
+    margin: 2em;    
+    font-family: var(--body-font);
+    font-size: 1.7rem;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    
+    box-shadow: #b4b4b4 0px 0px 20px;
+    transition: .5s;
+    border-top: green solid 3px;
+    border-bottom: green solid 3px;
+
+}
+.plancard h3
+{
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: rgb(219, 219, 219) 3px solid;
+    padding: 0.6em;
+}
+.planinfo{
+    border-left: green 3px solid;line-height: 2em;
+    padding-left: 1em;
+    border-bottom: rgb(219, 219, 219) 3px solid;
+    padding: 1em 1em;
+}
+.planinfo i{
+    width: 35px;
+    height: 35px;
+    font-size: 1.5em;
+    padding-right: auto;
+    margin-right: 1em;
+    text-align: center;
+}
+.price{
+    border-bottom: rgb(219, 219, 219) 3px solid;
+    padding: 1em 2em;
+
+}
+.price span{
+    color: green;
+}
+.plancard:hover{
+    transform: scale(1.1);
+}
+span{
+    color: green;
+}
+.fa-tachometer-alt,.fa-wifi,.fa-bolt
+{
+    color: green;
 }
