@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 :root{
@@ -15,6 +16,7 @@ html{
     font-family: var(--font);    
     font-size: 10px;
     scroll-behavior: smooth;
+    min-width: 1200px;
 }
 h1{
     font-family: var(--font);
