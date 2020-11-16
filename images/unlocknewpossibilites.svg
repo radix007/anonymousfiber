@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114px" height="87px" viewBox="0 0 114 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" jetway-hooks="{}">
+    <title>Group 19SMBIcons</title>
+    <g jetway-hook-id="9B4EE40A-F85B-4104-9759-7853A5B24A3F" id="SMB-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g jetway-hook-id="7F411933-0D69-47FD-9854-2AF83BC05A01" id="SMB--Reskin--Icon-Design-Updates-R2" transform="translate(-1050.000000, -939.000000)">
+            <g jetway-hook-id="173022D1-AB8B-47D5-B3C6-90282D570173" id="Group-19" transform="translate(1050.000000, 939.000000)">
+                <g jetway-hook-id="7D395416-568D-4B18-AA7C-6B42BE19F56C" id="Group-12">
+                    <g jetway-hook-id="B9B2B419-9C67-4FE0-9A83-57D6AF9EC274" id="Group-13">
+                        <polygon jetway-hook-id="719E1181-E9B4-4851-AA46-C97021620E10" id="storefornt" fill="#0D652D" points="108 0 6 -1.40512602e-16 0 36 6 36 6.33333333 81 75 81 75 36 102 36 102 81 107.666667 81 108 36 114 36"></polygon>
+                        <polygon jetway-hook-id="3B4F4C67-F51B-4ACB-A79D-8EFA0C44050C" id="Path" fill="#FFFFFF" points="10 36 10 77 70 77 70 36"></polygon>
+                        <polygon jetway-hook-id="561BE10B-C27E-4755-82EB-868E0A0A12A0" id="Path-Copy" fill="#E6F4EA" points="14 40 14 73 65 73 65 40"></polygon>
+                        <rect jetway-hook-id="AB213A0E-7821-4BCE-96D0-F91064C51B91" id="Rectangle" fill="#34A853" x="70" y="83" width="38" height="4"></rect>
+                        <rect jetway-hook-id="A9A8E8FE-8F03-4F75-8C3E-EAF1D3587A7A" id="Rectangle" fill="#34A853" x="79" y="77" width="20" height="4"></rect>
+                        <polygon jetway-hook-id="4C195FCF-E9E0-4673-B512-E5EE07292338" id="Path" fill="#FFFFFF" points="108 31 104 4 10 4 6 31"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

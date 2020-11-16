@@ -27,7 +27,7 @@ h1{
 h2{
     font-weight: 400;
     font-size: 4em;
-    margin-right: 17rem;
+
 }
 .heading{
     margin-top: 5%;
@@ -133,7 +133,7 @@ input[type=button]:hover,input[type=button]:focus
     color: green;
 }
 h3{
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 200;
     text-align: left;
 }
@@ -216,11 +216,11 @@ h3{
    
 }
 .people{
-    flex: 1;
+    /* flex: 1; */
     border: #252525 2px solid;
     margin: 2em;    
     font-family: var(--body-font);
-    font-size: 1.5rem;
+    font-size: 1.5em;
     border-radius: 5px;
     background-color: white;
     border:none;
@@ -248,7 +248,7 @@ h3{
 }
 .people h5{
     padding: 1em;
-    font-size: 2rem;
+    font-size: 2em;
     padding-bottom: 0em;
 }
 .plans .container{
@@ -268,7 +268,7 @@ h3{
     border: #252525 2px solid;
     margin: 2em;    
     font-family: var(--body-font);
-    font-size: 1.7rem;
+    font-size: 1.7em;
     border-radius: 5px;
     background-color: white;
     border: none;
@@ -281,7 +281,7 @@ h3{
 }
 .plancard h3
 {
-    font-size: 3rem;
+    font-size: 3em;
     text-align: center;
     border-bottom: rgb(219, 219, 219) 3px solid;
     padding: 0.6em;
@@ -308,7 +308,7 @@ h3{
 .price span{
     color: green;
 }
-.plancard:hover{
+.plans .plancard:hover{
     transform: scale(1.1);
 }
 span{
@@ -317,4 +317,154 @@ span{
 .fa-tachometer-alt,.fa-wifi,.fa-bolt
 {
     color: green;
+}
+.business-hero
+{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+.business-hero h4
+{
+    font-family: var(--font);
+    font-size: 1.5em;
+    line-height: 5em;
+
+}
+.business-hero input{
+    border: 2px solid white;
+}
+.description{
+    text-align: center;margin: 5em 10em;
+}
+.description h1
+{
+    font-size: 4.5em;
+}
+.description h2
+{
+    font-size: 3em;
+}
+.description h4{
+    font-size: 1.7em;
+    padding: 1em 9em;
+    font-weight: 400;
+    font-family: var(--body-font);
+}
+.description div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+.description div div{
+    flex: 1;
+    width: 50%;
+    flex-grow: .5;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.description div img
+{
+    padding-bottom: 3em;
+}
+.description div div p
+{
+    padding-top: 2em;
+    font-family: var(--body-font);
+    font-size: 1.7em;
+}
+.business-plans h2
+{
+    text-align: center;
+    padding: 2em;
+}
+.business-plans .container
+{
+    display: flex;
+    justify-content: center;
+}
+.business-plans .plancard{
+    margin: 2em 5em;
+    border-top: none;
+    background-color: green;
+    width: 25%;
+    flex: none;
+}
+.business-plans .plancard h3
+{
+    font-size: 1.5em;
+    padding: .7em 0.7em;
+    text-align: left;
+    border-bottom: none;
+    color: white;
+}
+.business-plans .planinfo
+{
+    text-align: left;
+    background-color: white;
+    padding: .7em;
+    list-style-type: decimal;
+    border-color: white;
+    font-family: var(--body-font);
+    font-weight: 100;
+}
+.business-plans .planinfo ul
+{
+    margin: 2em 2em;
+}
+
+.business-plans .planinfo input
+{
+    position: relative;
+    width:60%;
+    left: 20%;
+}
+.included-in-plans
+{
+    text-align: center;
+    padding-top: 5em;
+}
+.stay-in-touch
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25%;
+   
+}
+.stay-in-touch h2{
+    word-spacing: -0.2em;
+}
+.stay-in-touch input[type=text]
+{
+    width: 50%;
+    margin-top: 3em;
+    margin-bottom: 0;
+}
+.stay-in-touch p
+{
+    font-family: var(--body-font);
+    font-size: 1.5em;
+    text-align: center;
+    padding: 2em 25%;
+}
+.stay-in-touch .socials i
+{
+    font-size: 5em;
+    padding: 0 .35em;
+    color: #919191;
+    padding-bottom: 2em;
+    transition: .4s;
+}
+.stay-in-touch .socials i:hover{
+    color: #252525;
 }
