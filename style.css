@@ -548,3 +548,180 @@ span{
 .stay-in-touch .socials i:hover{
     color: #252525;
 }
+
+
+/*FOOTER CSS */
+.global_footer {
+    background: #f5f5f5;
+    font-family: "Google Sans", "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 60px 20px 0
+}
+
+.global_footer * {
+    box-sizing: border-box
+}
+
+.global_footer a {
+    text-decoration: none
+}
+
+@media only screen and (min-width: 901px) {
+    .global_footer {
+        padding: 56px 0 40px
+    }
+}
+
+.global_footer__container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 1000px
+}
+
+@media only screen and (min-width: 901px) {
+    .global_footer__container {
+        justify-content: space-evenly
+    }
+}
+
+.global_footer__section {
+    flex-grow: 0;
+    padding: 0 24px;
+    margin-bottom: 48px;
+    width: 50%;
+    min-width: 120px
+}
+
+@media only screen and (min-width: 901px) {
+    .global_footer__section {
+        width: auto
+    }
+}
+
+.global_footer__section__title {
+    color: #5f6368;
+    cursor: default;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.global_footer__group {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 24px 0 0 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
+.global_footer_item {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 8px
+}
+
+.global_footer_item a {
+    color: #5f6368;
+    opacity: .48
+}
+
+.glue-body .global_footer_item a {
+    color: #5f6368
+}
+
+.footnotes {
+    color: #5f6368;
+    font-size: 12px;
+    font-weight: 300;
+    background: none;
+    border-top: 1px solid #D8D8D8;
+    margin: 0 auto;
+    max-width: 900px
+}
+
+.footnotes__copyright {
+    border-top: 1px solid #d8d8d8
+}
+
+.footnotes p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: .35px;
+    font-family: "Roboto";
+    color: #5f6368;
+    padding: 24px 0;
+    text-align: left
+}
+
+@media only screen and (min-width: 768px) {
+    .footnotes p {
+        font-size: 12px
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .footnotes p {
+        font-size: 12px
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .footnotes p {
+        font-size: 12px
+    }
+}
+
+.footnotes p+p {
+    padding-top: 0
+}
+
+.footnotes p.footnotes__copyright {
+    margin-top: 0;
+    padding-top: 24px
+}
+
+.footnotes a {
+    color: inherit;
+    text-decoration: underline
+}
+
+.footnotes .basic_plan_info {
+    border-bottom: 1px solid #d8d8d8
+}
+
+.footnotes .basic_plan_info h4 {
+    font-weight: 500;
+    line-height: 22px;
+    margin: 24px 0 0
+}
+
+.footnotes .basic_plan_info p {
+    padding: 0 0 24px
+}
+
+.glue-body .footnotes a {
+    color: #5f6368
+}
+
+body.global_notice--active-body {
+    padding-top: 90px
+}
+
+@media only screen and (min-width: 901px) {
+    body.global_notice--active-body {
+        padding-top: 90px
+    }
+}
+
+body.global_notice--active-body .global_nav__with_notice_bar {
+    top: 0
+}
+
+/* Foter CSS ENDS */ 
