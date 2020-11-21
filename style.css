@@ -190,14 +190,14 @@ input:nth-child(2) {
     width: 15%;
 }
 
-input[type=button] {
+input[type=submit] {
     width: 20%;
     background-color: white;
     color: green;
 }
 
-input[type=button]:hover,
-input[type=button]:focus {
+input[type=submit]:hover,
+input[type=submit]:focus {
     background-color: green;
     color: white;
 }
