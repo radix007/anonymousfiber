@@ -426,11 +426,11 @@ span {
     box-sizing: border-box;
     height: 100%;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 120px;
     background-color: green;
     text-align: center;
     color: white;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .business-hero h4 {
@@ -757,3 +757,13 @@ body.global_notice--active-body .global_nav__with_notice_bar {
 
 
 /* Foter CSS ENDS */
+
+
+/** About Us CSS */
+
+
+/** Radix ON The Job */
+
+.mission {
+    line-height: 1.5;
+}
