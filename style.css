@@ -30,8 +30,6 @@ html {
     padding: 0 2.4rem;
     position: fixed;
     background: #f5f5f5;
-
-
 }
 
 header {
@@ -91,16 +89,17 @@ nav li a {
     letter-spacing: normal;
     line-height: 1.3em;
     color: #000;
-    border-bottom:#f5f5f5 solid 2px;
-    transition: .4s;   
+    border-bottom: #f5f5f5 solid 2px;
+    transition: .4s;
 }
+
 nav li a:hover {
     color: #596365;
     border-bottom: #484848 solid 2px;
 }
-#signin
-{
-    color: var(--green);
+
+#signin {
+    color: var(--black);
     position: absolute;
     right: 10px;
     top: 10px;
@@ -108,8 +107,15 @@ nav li a:hover {
     background-color: #f5f5f5;
     padding: .5em;
     border-radius: 2px;
+    border-bottom: #f5f5f5 solid 2px;
 }
-#navlogo{
+
+#signin:hover {
+    color: #596365;
+    border-bottom: #484848 solid 2px;
+}
+
+#navlogo {
     border: none;
     position: absolute;
     left: 10px;
@@ -135,7 +141,8 @@ h2 {
 }
 
 .heading span {
-    color: var(--green);;
+    color: var(--green);
+    ;
 }
 
 .container {
@@ -235,7 +242,8 @@ input[type=submit]:focus {
 }
 
 .features h2 span {
-    color: var(--green);;
+    color: var(--green);
+    ;
 }
 
 h3 {
@@ -298,7 +306,8 @@ h3 {
 }
 
 .perks-heading h2 span {
-    color: var(--green);;
+    color: var(--green);
+    ;
 }
 
 .testimonial h2 {
@@ -308,7 +317,8 @@ h3 {
 }
 
 .testimonial h2 span {
-    color: var(--green);;
+    color: var(--green);
+    ;
 }
 
 .testimonial {
@@ -417,7 +427,8 @@ h3 {
 }
 
 .price span {
-    color: var(--green);;
+    color: var(--green);
+    ;
 }
 
 .plans .plancard:hover {
@@ -429,13 +440,15 @@ h3 {
 }
 
 span {
-    color: var(--green);;
+    color: var(--green);
+    ;
 }
 
 .fa-tachometer-alt,
 .fa-wifi,
 .fa-bolt {
-    color: var(--green);;
+    color: var(--green);
+    ;
 }
 
 .business-hero {
@@ -443,7 +456,8 @@ span {
     height: 100%;
     width: 100%;
     padding-top: 100px;
-    background-color: var(--green);;
+    background-color: var(--green);
+    ;
     text-align: center;
     color: white;
     padding-bottom: 60px;
@@ -462,7 +476,6 @@ span {
 .description {
     text-align: center;
     margin: 5em 10em;
-   
 }
 
 .description h1 {
@@ -595,8 +608,8 @@ span {
 .stay-in-touch .socials i:hover {
     color: #252525;
 }
-#fibercities 
-{
+
+#fibercities {
     justify-content: center;
 }
 
