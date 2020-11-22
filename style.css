@@ -10,6 +10,7 @@
     --main-font-color-dark: #252525;
     --secondary-font-color: #c59d5f;
     --body-font-color: #515151;
+    --green: #27ae60;
 }
 
 html {
@@ -22,11 +23,15 @@ html {
 
 /* NAV BAR CSS */
 
-#anonymous_container {
+.anonymous_container {
     width: 100%;
-    max-width: 122.5rem;
+    /* max-width: 122.5rem; */
     margin: 0 auto;
     padding: 0 2.4rem;
+    position: fixed;
+    background: #f5f5f5;
+
+
 }
 
 header {
@@ -78,26 +83,36 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    font-family: Arial, serif;
-    font-size: 150%;
+    font-size: 160%;
     font-style: normal;
     font-weight: normal;
     text-transform: normal;
     letter-spacing: normal;
     line-height: 1.3em;
     color: #000;
+    border-bottom:#f5f5f5 solid 2px;
+    transition: .4s;   
 }
-
-nav a:hover {
-    text-decoration: none;
-    font-family: Arial, serif;
-    font-size: 170%;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: normal;
-    letter-spacing: normal;
-    line-height: 1.3em;
+nav li a:hover {
     color: #596365;
+    border-bottom: #484848 solid 2px;
+}
+#signin
+{
+    color: var(--green);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background-color: #f5f5f5;
+    padding: .5em;
+    border-radius: 2px;
+}
+#navlogo{
+    border: none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
 
 h1 {
@@ -119,7 +134,7 @@ h2 {
 }
 
 .heading span {
-    color: green;
+    color: var(--green);;
 }
 
 .container {
@@ -219,7 +234,7 @@ input[type=submit]:focus {
 }
 
 .features h2 span {
-    color: green;
+    color: var(--green);;
 }
 
 h3 {
@@ -282,7 +297,7 @@ h3 {
 }
 
 .perks-heading h2 span {
-    color: green;
+    color: var(--green);;
 }
 
 .testimonial h2 {
@@ -292,7 +307,7 @@ h3 {
 }
 
 .testimonial h2 span {
-    color: green;
+    color: var(--green);;
 }
 
 .testimonial {
@@ -401,7 +416,7 @@ h3 {
 }
 
 .price span {
-    color: green;
+    color: var(--green);;
 }
 
 .plans .plancard:hover {
@@ -413,13 +428,13 @@ h3 {
 }
 
 span {
-    color: green;
+    color: var(--green);;
 }
 
 .fa-tachometer-alt,
 .fa-wifi,
 .fa-bolt {
-    color: green;
+    color: var(--green);;
 }
 
 .business-hero {
@@ -427,7 +442,7 @@ span {
     height: 100%;
     width: 100%;
     padding-top: 100px;
-    background-color: green;
+    background-color: var(--green);;
     text-align: center;
     color: white;
     padding-bottom: 60px;
@@ -446,6 +461,7 @@ span {
 .description {
     text-align: center;
     margin: 5em 10em;
+   
 }
 
 .description h1 {
@@ -503,9 +519,10 @@ span {
 .business-plans .plancard {
     margin: 2em 5em;
     border-top: none;
-    background-color: green;
+    background-color: #f5f5f5;
     width: 25%;
     flex: none;
+    border-bottom: #f5f5f5 solid 3px;
 }
 
 .business-plans .plancard h3 {
@@ -513,7 +530,7 @@ span {
     padding: .7em 0.7em;
     text-align: left;
     border-bottom: none;
-    color: white;
+    color: black;
 }
 
 .business-plans .planinfo {
@@ -576,6 +593,10 @@ span {
 
 .stay-in-touch .socials i:hover {
     color: #252525;
+}
+#fibercities 
+{
+    justify-content: center;
 }
 
 
