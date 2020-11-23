@@ -39,8 +39,6 @@ p{
     justify-content: center;
     align-items: center;
 }
-
-
 .connection-form ul
 {
     display: flex;
@@ -110,11 +108,6 @@ p{
 pre{
     font-size: 1.2em;
 }
-
-input[type=submit] {
-   
-}
-
  #container-TC{
 width: 50%;
  }
