@@ -1,0 +1,120 @@
+
+:root {
+    --font: 'Roboto Mono', monospace;
+    --body-font: 'Cabin', sans-serif;
+    --main-font-color-dark: #252525;
+    --secondary-font-color: #c59d5f;
+    --body-font-color: #515151;
+    --green: #27ae60;
+}
+html{
+    font-family: var(--font);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 4em;
+    width: 70%;
+    text-align: left;
+}
+
+h2 span{
+    color: var(--green);
+}
+p{
+    text-align: left;
+    width: 70%;
+    font-size: 1.5em;
+}
+.hero {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    background-color: #f5f5f5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.connection-form ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+}
+.connection-form ul li
+{
+   
+  margin: 5px 10em;
+}
+.connection-form ul li label
+{
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+
+}
+.connection-form ul li input[type='text'],.connection-form ul li input[type='email']
+{
+    margin-bottom: 10px;
+    height: 3em;
+    border: none;
+    border-bottom: #7c7c7c solid 2px;
+    width: 65%;
+ }
+
+ #container-submit{
+     display: flex;
+ }
+ .connection-form ul li input[type='submit'],.connection-form ul li input[type='button']
+ {
+    padding: 5px;
+    border-radius: 4px;
+    border: 3px solid #e7e7e7;
+    box-sizing: border-box;
+    border-color: #cfcfcf;
+    color: black;
+    background-color: #e7e7e7;
+    transition: .3s;
+    width: 20%;
+    margin-right:20px;
+    height: 3em;
+ }
+ .connection-form ul li input[type='submit']:hover,.connection-form ul li input[type='button']:hover,
+.connection-form ul li input[type='submit']:focus,.connection-form ul li input[type='button']:focus
+ {
+    background-color: #e7e7e7;
+    border-color: #606060;
+    color: black;
+ }
+
+ select{
+     height: 3em;
+     width: 20%;
+ }
+ .connection-form ul li input[type='text']:focus,.connection-form ul li input[type='email']:focus,
+ .connection-form ul li input[type='text']:hover,.connection-form ul li input[type='email']:hover
+ {
+     border: none;
+     border-bottom: var(--green) solid 2px;
+     transition: .5s;
+     outline: none;
+     background-color: white;
+ }
+pre{
+    font-size: 1.2em;
+}
+
+input[type=submit] {
+   
+}
+
+ #container-TC{
+width: 50%;
+ }
