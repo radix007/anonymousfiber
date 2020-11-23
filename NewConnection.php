@@ -1,3 +1,5 @@
+<!Doctype html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Anonymous Fiber | Fast , Private & Secure - from Anonymous </title>
