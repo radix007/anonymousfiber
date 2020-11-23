@@ -4,19 +4,19 @@
             <div class=global_footer__section__title>Check availability</div>
             <ul class=global_footer__group>
                 <li class=global_footer_item>
-                    <a data-g-action=click data-g-event=footer href=index.html data-g-label=check-availability:residential-service>Residential service</a>
-                <li class=global_footer_item><a data-g-action=click data-g-event=footer href=Business.html data-g-label=check-availability:small-business>Small business</a>
-                <li class=global_footer_item><a data-g-action=click data-g-event=footer href=index.html data-g-label=check-availability:property-managers>Property managers</a>
+                    <a data-g-action=click data-g-event=footer href=index.php data-g-label=check-availability:residential-service>Residential service</a>
+                <li class=global_footer_item><a data-g-action=click data-g-event=footer href=Business.php data-g-label=check-availability:small-business>Small business</a>
+                <li class=global_footer_item><a data-g-action=click data-g-event=footer href=index.php data-g-label=check-availability:property-managers>Property managers</a>
             </ul>
         </div>
 
         <div class=global_footer__section>
             <div class=global_footer__section__title>About</div>
             <ul class=global_footer__group>
-                <li class=global_footer_item><a data-g-action=click data-g-event=footer href=/blog/ data-g-label=about:blog>Blog</a>
-                <li class=global_footer_item><a data-g-action=click data-g-event=footer href=/careers/ data-g-label=about:careers>Careers</a>
-                <li class=global_footer_item><a data-g-action=click data-g-event=footer href=/community/ data-g-label=about:community-impact>Community Impact</a>
-                <li class=global_footer_item><a data-g-action=click data-g-event=footer href="ContactUs.html" data-g-label=about:support>Support</a>
+                <li class=global_footer_item><a data-g-action=click data-g-event=footer href=index.php data-g-label=about:blog>Blog</a>
+                <li class=global_footer_item><a data-g-action=click data-g-event=footer href=index.php data-g-label=about:careers>Careers</a>
+                <li class=global_footer_item><a data-g-action=click data-g-event=footer href=index.php data-g-label=about:community-impact>Community Impact</a>
+                <li class=global_footer_item><a data-g-action=click data-g-event=footer href="ContactUs.php" data-g-label=about:support>Support</a>
             </ul>
         </div>
         <div class=global_footer__section>
@@ -36,8 +36,7 @@
             to the continued agreement between Anonymous Fiber and the property owner. Upload/download speed and
             device streaming claims are based on maximum wired speeds. Actual Internet speeds are not guaranteed and
             may vary based on factors such
-            as hardware and software limitations, latency, packet loss, etc. Click <a href=https://support.google.com/fiber/answer/2476912>here </a> for more information. </p> <p class=footnotes__copyright>© 2020 Anonymous Fiber Inc. | | Akard Street, Suite 2954, Dallas, Texas
-                75202.<a href=/legal />Privacy & Terms</a>
+            as hardware and software limitations, latency, packet loss, etc. Click <a href=index.php>here </a> for more information. </p> <p class=footnotes__copyright>© 2020 Anonymous Fiber Inc. | | Akard Street, Suite 2954, Gurgaon.    <a href=/legal />Privacy & Terms</a>
         </p>
     </section>
 </footer>
