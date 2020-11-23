@@ -1,4 +1,3 @@
-
 :root {
     --font: 'Roboto Mono', monospace;
     --body-font: 'Cabin', sans-serif;
@@ -7,7 +6,8 @@
     --body-font-color: #515151;
     --green: #27ae60;
 }
-html{
+
+html {
     font-family: var(--font);
     margin: 0px;
     padding: 0px;
@@ -22,14 +22,16 @@ h2 {
     text-align: left;
 }
 
-h2 span{
+h2 span {
     color: var(--green);
 }
-p{
+
+p {
     text-align: left;
     width: 70%;
     font-size: 1.5em;
 }
+
 .hero {
     width: 100%;
     height: 30%;
@@ -40,40 +42,39 @@ p{
     align-items: center;
 }
 
-
-.connection-form ul
-{
+.connection-form ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     list-style-type: none;
 }
-.connection-form ul li
-{
-   
-  margin: 5px 10em;
+
+.connection-form ul li {
+    margin: 5px 10em;
 }
-.connection-form ul li label
-{
+
+.connection-form ul li label {
     display: block;
     width: 100%;
     margin: 10px 0px;
-
 }
-.connection-form ul li input[type='text'],.connection-form ul li input[type='email']
-{
+
+.connection-form ul li input[type='text'],
+.connection-form ul li input[type='email'] {
     margin-bottom: 10px;
     height: 3em;
     border: none;
     border-bottom: #7c7c7c solid 2px;
     width: 65%;
- }
+}
 
- #container-submit{
-     display: flex;
- }
- .connection-form ul li input[type='submit'],.connection-form ul li input[type='button']
- {
+#container-submit {
+    display: flex;
+   margin-bottom: 50px;
+}
+
+.connection-form ul li input[type='submit'],
+.connection-form ul li input[type='button'] {
     padding: 5px;
     border-radius: 4px;
     border: 3px solid #e7e7e7;
@@ -83,38 +84,221 @@ p{
     background-color: #e7e7e7;
     transition: .3s;
     width: 20%;
-    margin-right:20px;
+    margin-right: 20px;
     height: 3em;
- }
- .connection-form ul li input[type='submit']:hover,.connection-form ul li input[type='button']:hover,
-.connection-form ul li input[type='submit']:focus,.connection-form ul li input[type='button']:focus
- {
+}
+
+.connection-form ul li input[type='submit']:hover,
+.connection-form ul li input[type='button']:hover,
+.connection-form ul li input[type='submit']:focus,
+.connection-form ul li input[type='button']:focus {
     background-color: #e7e7e7;
     border-color: #606060;
     color: black;
- }
+}
 
- select{
-     height: 3em;
-     width: 20%;
- }
- .connection-form ul li input[type='text']:focus,.connection-form ul li input[type='email']:focus,
- .connection-form ul li input[type='text']:hover,.connection-form ul li input[type='email']:hover
- {
-     border: none;
-     border-bottom: var(--green) solid 2px;
-     transition: .5s;
-     outline: none;
-     background-color: white;
- }
-pre{
+select {
+    height: 3em;
+    width: 20%;
+}
+
+.connection-form ul li input[type='text']:focus,
+.connection-form ul li input[type='email']:focus,
+.connection-form ul li input[type='text']:hover,
+.connection-form ul li input[type='email']:hover {
+    border: none;
+    border-bottom: var(--green) solid 2px;
+    transition: .5s;
+    outline: none;
+    background-color: white;
+}
+
+pre {
     font-size: 1.2em;
 }
 
-input[type=submit] {
-   
+input[type=submit] {}
+
+#container-TC {
+    width: 50%;
 }
 
- #container-TC{
-width: 50%;
- }
+
+/*FOOTER CSS  STARTS*/
+
+.global_footer {
+    background: #f5f5f5;
+    font-family: "Google Sans", "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 60px 20px 0
+}
+
+.global_footer * {
+    box-sizing: border-box
+}
+
+.global_footer a {
+    text-decoration: none
+}
+
+@media only screen and (min-width: 901px) {
+    .global_footer {
+        padding: 56px 0 40px
+    }
+}
+
+.global_footer__container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 1000px
+}
+
+@media only screen and (min-width: 901px) {
+    .global_footer__container {
+        justify-content: space-evenly
+    }
+}
+
+.global_footer__section {
+    flex-grow: 0;
+    padding: 0 24px;
+    margin-bottom: 48px;
+    width: 50%;
+    min-width: 120px
+}
+
+@media only screen and (min-width: 901px) {
+    .global_footer__section {
+        width: auto
+    }
+}
+
+.global_footer__section__title {
+    color: #5f6368;
+    cursor: default;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.global_footer__group {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 24px 0 0 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
+.global_footer_item {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 8px;
+    list-style-type: none;
+}
+
+.global_footer_item a {
+    color: #5f6368;
+    opacity: .48
+}
+
+.glue-body .global_footer_item a {
+    color: #5f6368
+}
+
+.footnotes {
+    color: #5f6368;
+    font-size: 12px;
+    font-weight: 300;
+    background: none;
+    border-top: 1px solid #D8D8D8;
+    margin: 0 auto;
+    max-width: 900px
+}
+
+.footnotes__copyright {
+    border-top: 1px solid #d8d8d8
+}
+
+.footnotes p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: .35px;
+    font-family: "Roboto";
+    color: #5f6368;
+    padding: 24px 0;
+    text-align: left
+}
+
+@media only screen and (min-width: 768px) {
+    .footnotes p {
+        font-size: 12px
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .footnotes p {
+        font-size: 12px
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .footnotes p {
+        font-size: 12px
+    }
+}
+
+.footnotes p+p {
+    padding-top: 0
+}
+
+.footnotes p.footnotes__copyright {
+    margin-top: 0;
+    padding-top: 24px
+}
+
+.footnotes a {
+    color: inherit;
+    text-decoration: underline
+}
+
+.footnotes .basic_plan_info {
+    border-bottom: 1px solid #d8d8d8
+}
+
+.footnotes .basic_plan_info h4 {
+    font-weight: 500;
+    line-height: 22px;
+    margin: 24px 0 0
+}
+
+.footnotes .basic_plan_info p {
+    padding: 0 0 24px
+}
+
+.glue-body .footnotes a {
+    color: #5f6368
+}
+
+body.global_notice--active-body {
+    padding-top: 90px
+}
+
+@media only screen and (min-width: 901px) {
+    body.global_notice--active-body {
+        padding-top: 90px
+    }
+}
+
+body.global_notice--active-body .global_nav__with_notice_bar {
+    top: 0
+}
+
+
+/* Foter CSS ENDS */

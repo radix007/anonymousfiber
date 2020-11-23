@@ -16,9 +16,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" href="form.css">
+  
 </head>
 
 <body>
+
 
 
   <?php
@@ -183,11 +185,14 @@
         </li>
         <li id="container-submit">
           <input type="Submit" name="Submit" value="Submit" id="form-submit" />
-          <input type="button" onclick="location.href='NewConnection.php'; return false;" value="Cancel">
+          <input type="button" onclick="location.href='index.php'; return false;" value="Cancel">
         </li>
       </ul>
       </fieldset>
     </form>
+      <!-- FOOTER STARTS -->
+      <?php include('footer.php'); ?>
+    <!-- FOOTER ENDS -->
 </body>
 
 </html>
