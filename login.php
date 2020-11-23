@@ -32,7 +32,7 @@
              <input type="submit" value="Login">
          </form>
      </div>
-     <?php include('footer.php'); ?>
+     <?php include('footer_login.php'); ?>
  </body>
 
  </html>

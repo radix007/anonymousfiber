@@ -191,7 +191,7 @@
       </fieldset>
     </form>
       <!-- FOOTER STARTS -->
-      <?php include('footer.php'); ?>
+      <?php include('footer_login.php'); ?>
     <!-- FOOTER ENDS -->
 </body>
 
