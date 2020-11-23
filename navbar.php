@@ -7,8 +7,8 @@
                     <a href="index.php">Home</a>
                 </li>
                 <li>
+                    <a href="FiberCities.php">Fiber Cities</a>
                 </li>
-                <a href="FiberCities.php">Fiber Cities</a>
                 <li>
                     <a href="Business.php">Business</a>
                 </li>
@@ -18,9 +18,10 @@
                 <li>
                     <a href="ContactUs.php">Contact Us</a>
                 </li>
-                <li>
-                    <a href="login.php" id="signin">Sign In</a>
+                <li> <a href="login.php" id="signin">Sign In</a>
                 </li>
+            </ul>
+
             </ul>
         </nav>
     </div>

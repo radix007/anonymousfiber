@@ -17,32 +17,7 @@
 <body>
     <!-- NAVIGATION BAR START -->
     <!-- radix on the job :) -->
-
-    <header>
-        <div class="anonymous_container">
-            <nav class=anonymous_nav>
-                <div>
-                    <!--<a href="index.html" class="anonymous_logo">
-                    <img id="anonymous_logo_icon" src="images/anonymous_fiber.svg" alt="Anonymous Fiber Home Logo">
-                </a>-->
-                </div>
-                <ul>
-                    <li>
-                        <a href="FiberCities.html">Fiber Cities</a>
-                    </li>
-                    <li>
-                        <a href="Business.html">Business</a>
-                    </li>
-                    <li>
-                        <a href="AboutUs.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="ContactUs.html">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <?php include('navbar.php'); ?>
     <!-- radix on the job :) -->
     <!-- NAVIGATION BAR END -->
     <!-- ######################################################### -->

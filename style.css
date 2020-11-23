@@ -99,7 +99,7 @@ nav li a:hover {
 }
 
 #signin {
-    color: var(--black);
+    color: var(--green);
     position: absolute;
     right: 10px;
     top: 10px;
@@ -380,9 +380,13 @@ h3 {
     margin: auto;
     padding: 1.5em;
 }
-
+.plans .container
+{
+    margin: 0em 10em;
+}
 .plancard {
     flex: 1;
+    width: 25%;
     text-align: left;
     border: #252525 2px solid;
     margin: 2em;
