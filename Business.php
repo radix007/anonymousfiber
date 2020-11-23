@@ -24,8 +24,8 @@
     <section class="business-hero">
 
         <h1>
-            Anonymous Fiber <br> for small business.</h1>
-        <h4>Up to 50 Gbps upload and download speeds.</h4>
+            Anonymous Fiber <br> for small <span>business.</span></h1>
+        <h4>Up to <span>50 Gbps</span> upload and download speeds.</h4>
 
     </section>
     <section class="description">

@@ -260,14 +260,14 @@ h3 {
     align-items: center;
 }
 
-.text {
+.content .text {
     padding: 2% 5%;
     width: 50%;
     font-family: var(--body-font);
     font-size: 1.5rem;
 }
 
-.image {
+.content .image {
     padding: 2% 10%;
     width: 50%;
 }
@@ -460,10 +460,10 @@ span {
     height: 100%;
     width: 100%;
     padding-top: 100px;
-    background-color: var(--green);
+    background-color: #f5f5f5;
     ;
     text-align: center;
-    color: white;
+    color: black;
     padding-bottom: 60px;
 }
 
@@ -616,8 +616,45 @@ span {
 #fibercities {
     justify-content: center;
 }
+.support 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 15%;
+    font-family: var(--body-font);
+    font-size: 1.5rem;
+}
+#phone
+{
+    justify-content: flex-end;
+}
+#mail
+{
+    justify-content: start;
+}
+#mail .text{
+    width: 27%;
+    margin: 2%;
+}
+#phone .text{
+    width: 27%;
+    margin: 2%;
+   
+}
+pre{
+    font-family: var(--body-font);
+}
+#phone img{
 
-
+    padding: 2%;
+}
+#email img{
+    padding: 2%;
+}
+.support a{
+    text-decoration: none;
+}
 /*FOOTER CSS */
 
 .global_footer {

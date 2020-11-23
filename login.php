@@ -12,6 +12,7 @@
      <meta property="og:title" content="Get  the fastest Anonymous Fiber">
      <link rel="icon" href="images/anonymous_fox.jpg" type="image/x-icon">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap" rel="stylesheet">
      <link rel="stylesheet" type="text/css" href="login.css">
      <link rel="stylesheet" type="text/css" href="style.css">
  </head>

@@ -24,43 +24,28 @@
     <!-- NAVIGATION BAR END -->
     <section class="features">
         <h2> Need help? We've got you covered.</h2>
-        <div class="content">
+        <div class="support" id="phone">
             <div class="text">
                 <p>
-                    <h3>Keep everyone online.</h3>
-                    Let everyone do their own internet thing without interruptions. That means non-stop streaming, learning
-                    online, working out, gaming, and video chatting—all at the same time.
-                    <br>
-                    <br>
-                    <br>
+                    <h3>Contact Anonymous Fiber.</h3>
+                    <pre>
+                        <p>Plot No 4B,District Center
 
-                    <h3>Make WFH work.</h3>
-                    When you have gigabit uploads, you don’t have to worry about being the person who’s always “cutting out”
-                    of the meeting and then apologizing for your internet quality. Your internet should be work-worthy—even
-                    if your office is your couch.
+<a href="tel:+919215299911"><span>Tel:+91 9212599911</span></a>
+</p>                    </pre>
 
                 </p>
             </div>
-            <div class="image"><img src="images/anonymous_group.png" width="100%" alt=""></div>
+            <div class="image"><a href="tel:+919215299911"><img src="images/contactus.png" height="200px" alt=""></a></div>
         </div>
-        <div class="content">
-            <div class="image"><img src="images/anonymous_fox.jpg" width="100%" alt=""></div>
+        <div class="support" id="mail">
+            <div class="image"><a href="mailto:someone@example.com"><img src="images/emailus.png" width="200px" alt=""></a></div>
             <div class="text">
                 <p>
-                    <h3>Connect your home.</h3>
-                    You’ve got a smart doorbell, a smart fridge, two smart TVs, some tablets, cameras, monitors, a smart
-                    bike, a smart thermostat, smart security devices, a voice-activated light system (very cool), and then
-                    some. And when you’ve got a gig, you’ve got plenty
-                    of internet.
+                    <h3>Email Us.</h3>
+                    Write to us at <a href="mailto:someone@example.com"><span>someone@example.com</span></a> or just click on the image.
 
 
-                    <br>
-                    <br>
-                    <br>
-
-                    <h3>Win more with less lag.</h3>
-                    Or should we say—more frags, less lag? Whether you’re going on a raid or tending to your virtual farm,
-                    this kind of internet was practically made for gaming.
 
                 </p>
             </div>

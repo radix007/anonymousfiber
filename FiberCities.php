@@ -24,8 +24,8 @@
     <section class="business-hero">
 
         <h1>
-            List of <br> Fiber Cities.</h1>
-        <h4>Up to 50 Gbps upload and download speeds.</h4>
+            List of <br> Fiber <span>Cities.</span></h1>
+        <h4>Up to <span>50 Gbps</span> upload and download speeds.</h4>
     </section>
     <section class="description" id="fibercities">
         <h1>Move ahead with lighting speed <span> Internet.</span></h1>
