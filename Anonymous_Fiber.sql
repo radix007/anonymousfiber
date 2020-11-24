@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 24, 2020 at 03:10 AM
+-- Generation Time: Nov 23, 2020 at 01:36 PM
 -- Server version: 10.5.6-MariaDB
 -- PHP Version: 7.4.12
 
@@ -64,25 +64,12 @@ INSERT INTO `areas` (`pincode`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `complaint1`
---
-
-CREATE TABLE `complaint1` (
-  `C_ID` int(11) NOT NULL,
-  `Customer_ID` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Details` varchar(1000) COLLATE utf8mb4_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `complaint_details`
 --
 
 CREATE TABLE `complaint_details` (
-  `C_no` int(10) UNSIGNED NOT NULL,
   `Customer_ID` varchar(10) NOT NULL,
-  `Customer_DI` int(10) NOT NULL,
+  `C_no` int(10) UNSIGNED NOT NULL,
   `Details` tinytext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -93,7 +80,6 @@ CREATE TABLE `complaint_details` (
 --
 
 CREATE TABLE `Email_Subscription_List` (
-  `S.no` int(10) NOT NULL,
   `Email_Id` varchar(40) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -155,35 +141,6 @@ INSERT INTO `plan_details` (`Customer_ID`, `Current_Plan`, `Data_consumed`, `Dat
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user`
---
-
-CREATE TABLE `user` (
-  `First_Name` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Last_Name` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Customer_ID` int(11) NOT NULL,
-  `Mobile_Number` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `email` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Address` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `City` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `State` varchar(25) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `PinCode` varchar(8) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Service_Type` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `user`
---
-
-INSERT INTO `user` (`First_Name`, `Last_Name`, `Customer_ID`, `Mobile_Number`, `email`, `password`, `Address`, `City`, `State`, `PinCode`, `Service_Type`) VALUES
-('Mike', 'Ross', 1, '8757875712', 'mikeross@anonymousfiber.com', '$2y$10$dC9jihSJI8JcWCPmd3kwDO032z/HtU3.GeDzY7opLCssoqvYm6Yqe', '305 John Street ', 'Delhi', 'New Delhi', '110005', 'Individual'),
-('Naruto ', 'Uzumaki', 2, '9988556478', 'narutouzumaki@anonymous.com', '$2y$10$dC9jihSJI8JcWCPmd3kwDO032z/HtU3.GeDzY7opLCssoqvYm6Yqe', 'Hokage\'s Office , Leaf Village ', 'Jaipur', 'Rajasthan', '300205', 'Individual'),
-('Madara ', 'Uchiha', 3, '9687851273', 'madarauchiha@anonymous.com', '$2y$10$dC9jihSJI8JcWCPmd3kwDO032z/HtU3.GeDzY7opLCssoqvYm6Yqe', 'Uchiha Square , Jaipur , Rajasthan', 'Jaipur', 'Rajasthan', '302010', 'Individual');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `user_details`
 --
 
@@ -206,13 +163,12 @@ CREATE TABLE `user_details` (
 --
 
 INSERT INTO `user_details` (`First_name`, `Last_name`, `Customer_ID`, `Mobile_Number`, `Email_ID`, `Password`, `Address`, `City`, `State`, `PinCode`, `Service_Type`) VALUES
-('Mike', 'Ross', '1', '8757875712', 'mikeross@anonymous.com', '$2y$10$dC9jihSJI8JcWCPmd3kwDO032z/HtU3.GeDzY7opLCssoqvYm6Yqe', '305 John Street ', 'Delhi', 'New Delhi', '110005', 'Individual'),
+('Mike', 'Ross', '1', '8757875712', 'mikeross@anonymous.com', '6d9ce3ad71855b6fff3ed3530c2967c2d4e3f844', '305 John Street ', 'Delhi', 'New Delhi', '110005', 'Individual'),
 ('Emily ', 'Robinson', '2', '8969896285', 'emilyrobinson@anonymous.com', '7d762800708488ce391bc590b7893b106bec0012', '307 John Street ', 'Delhi', 'New Delhi', '110005', 'Individual'),
 ('Rachel', 'Zane', '3', '7894561238', 'rachelross@anonymous.com', 'f27495a3f79f9b9b897af07fef51867f4ffecf3b', '308 John Street ', 'Delhi', 'New Delhi', '110005', 'Individual'),
 ('Naruto ', 'Uzumaki', '4', '9687852254', 'narutouzumaki@anonymous.com', 'ffc70f01472014d415b78ec27d2f2963b9cc9018', 'Hokage\'s Office , Leaf Village ', 'Jaipur', 'Rajasthan', '302005', 'Individual'),
 ('Madara ', 'Uchiha', '5', '9687851273', 'madarauchiha@anonymous.com', '0b1c36f69744972bc9b19a9754da8579f5b0d63c', 'Uchiha Square , Jaipur , Rajasthan', 'Jaipur', 'Rajasthan', '302010', 'Individual'),
-('Legion', 'Solutions', '6', '7894561278', 'legionsolutions@anonymous.com', 'f02cf7d4585aef8b662e933bb35c4866afb99bb6', '221 Baker Street , Legion Road', 'Mumbai', 'Maharashtra', '122011', 'Business'),
-('Test', 'User', '7', '9885695478', 'abc@gmail.com', 'password', 'abc', 'abc', 'abc', 'abc', 'abc');
+('Legion', 'Solutions', '6', '7894561278', 'legionsolutions@anonymous.com', 'f02cf7d4585aef8b662e933bb35c4866afb99bb6', '221 Baker Street , Legion Road', 'Mumbai', 'Maharashtra', '122011', 'Business');
 
 --
 -- Indexes for dumped tables
@@ -225,23 +181,11 @@ ALTER TABLE `areas`
   ADD PRIMARY KEY (`pincode`);
 
 --
--- Indexes for table `complaint1`
---
-ALTER TABLE `complaint1`
-  ADD PRIMARY KEY (`C_ID`);
-
---
 -- Indexes for table `complaint_details`
 --
 ALTER TABLE `complaint_details`
   ADD UNIQUE KEY `C_no` (`C_no`),
   ADD KEY `Customer_ID` (`Customer_ID`);
-
---
--- Indexes for table `Email_Subscription_List`
---
-ALTER TABLE `Email_Subscription_List`
-  ADD PRIMARY KEY (`S.no`);
 
 --
 -- Indexes for table `new_connection_req`
@@ -257,12 +201,6 @@ ALTER TABLE `plan_details`
   ADD KEY `Customer_ID` (`Customer_ID`);
 
 --
--- Indexes for table `user`
---
-ALTER TABLE `user`
-  ADD PRIMARY KEY (`Customer_ID`);
-
---
 -- Indexes for table `user_details`
 --
 ALTER TABLE `user_details`
@@ -274,34 +212,10 @@ ALTER TABLE `user_details`
 --
 
 --
--- AUTO_INCREMENT for table `complaint1`
---
-ALTER TABLE `complaint1`
-  MODIFY `C_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-
---
--- AUTO_INCREMENT for table `complaint_details`
---
-ALTER TABLE `complaint_details`
-  MODIFY `C_no` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `Email_Subscription_List`
---
-ALTER TABLE `Email_Subscription_List`
-  MODIFY `S.no` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
-
---
 -- AUTO_INCREMENT for table `new_connection_req`
 --
 ALTER TABLE `new_connection_req`
-  MODIFY `Req_Id` bigint(7) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
-
---
--- AUTO_INCREMENT for table `user`
---
-ALTER TABLE `user`
-  MODIFY `Customer_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `Req_Id` bigint(7) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- Constraints for dumped tables

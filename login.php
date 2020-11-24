@@ -20,7 +20,7 @@
  <body>
      <div class="login">
          <h1>Sign In</h1>
-         <form action="authenticate.php" method="post">
+         <form action="authentication.php" method="post">
              <label for="Email">
                  <i class="fas fa-user"></i>
              </label>
@@ -36,3 +36,6 @@
  </body>
 
  </html>
+ <?php
+ var_dump($_POST);
+ ?>
