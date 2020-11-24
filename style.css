@@ -163,7 +163,7 @@ h2 {
     width: 300px;
 }
 
-.form {
+.hero .form {
     position: relative;
     margin-top: 5%;
     display: flex;
@@ -583,6 +583,14 @@ span {
     align-items: center;
     padding: 0 25%;
 }
+.subscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
 
 .stay-in-touch h2 {
     word-spacing: -0.2em;
@@ -844,3 +852,38 @@ body.global_notice--active-body .global_nav__with_notice_bar {
 .mission {
     line-height: 1.5;
 }
+.plan-details{
+    font-family: var(--font);
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+    border:#f5f5f5 solid 3px;
+  }
+  
+.plan_details td, .plan-details th {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  .plan-details tr{
+      height: 40px;
+      padding: 20px;
+  }
+  td{
+      padding-left: 10px;
+  }
+  .profile{
+      margin-left: 20px;
+  }
+  
+  .plan-details tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .plan-details tr:hover {background-color: #ddd;}
+  
+  .plan-details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--green);
+    color: white;
+  }

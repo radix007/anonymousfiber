@@ -49,7 +49,7 @@
 
 
   <section class="stay-in-touch">
-    <h2><br><br>We like you. Stay in touch.</h2>
+    <h2 style="text-align:center;"><br><br>Coming Soon!</h2>
     <form action="index.php" method="post">
       <div class="subscription"> <input type="email" name="Email_Id" id="Email_Id" placeholder="Your email address" required />
         <input type="Submit" name="Submit" value="Sign Up" onclick="myFunction()">

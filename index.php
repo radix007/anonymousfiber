@@ -37,10 +37,27 @@
         </div>
 
         <div class="form">
-            <form action="">
+            <form action="" >
                 <input type="text" name="address" placeholder="Your address" required>
-                <input type="text" name="pin" placeholder="Pincode" required>
-                <input type="submit" value=" Check Availability ">
+                <input type="text" name="pin" placeholder="Pincode" id="pin" required>
+                <input type="submit" value=" Check Availability " onclick ="pinCode()";>
+
+
+                <script>
+                let pinCodes = [110005, 110006, 110007, 110038, 110008, 110054, 110055, 110060, 110071, 110084, 110085.122003, 122011, 122007, 122011, 302005, 302007];
+
+        function pinCode() {
+    let pinValue = parseInt(document.getElementById("pin").value); 
+    if (pinCodes.indexOf(pinValue) !== -1) {
+        window.location = "NewConnection.php";
+            } 
+        else if (Number.isInteger(pinValue)) {
+            window.location = "ComingSoon.php";
+    } else {
+        alert("Invalid Entry");
+    }
+}
+</script>
             </form>
         </div>
     </section>
