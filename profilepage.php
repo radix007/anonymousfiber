@@ -1,9 +1,7 @@
 <?php
-// We need to use sessions, so you should always start sessions using the below code.
 session_start();
-// If the user is not logged in redirect to the login page...
 if (!isset($_SESSION['loggedin'])) {
-    header('Location: index.html');
+    header('Location: login.php');
     exit;
 }
 $DATABASE_HOST = 'localhost';
@@ -14,9 +12,7 @@ $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_
 if (mysqli_connect_errno()) {
     exit('Failed to connect to MySQL: ' . mysqli_connect_error());
 }
-// We don't have the password or email info stored in sessions so instead we can get the results from the database.
 $stmt = $con->prepare('SELECT First_Name,Last_Name,Mobile_Number ,email,Address,City,State,PinCode,Service_Type FROM user WHERE Customer_ID = ?');
-// In this case we can use the account Customer_ID to get the account info.
 $stmt->bind_param('i', $_SESSION['Customer_ID']);
 $stmt->execute();
 $stmt->bind_result($First_Name, $Last_Name, $Mobile_Number, $email, $Address, $City, $State, $PinCode, $Service_Type);
@@ -35,7 +31,7 @@ $stmt->close();
     <meta property="og:site_name" content="Anonymous Fiber">
     <meta name="twitter:site" content="@anonymous">
     <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="index.html">
+    <meta property="og:url" content="profilepage.php">
     <meta property="og:title" content="Get  the fastest Anonymous Fiber">
     <link rel="icon" href="images/anonymous_fox.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
