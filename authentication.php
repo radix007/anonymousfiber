@@ -1,4 +1,4 @@
- <?php
+<?php
 session_start();
 
 $DATABASE_HOST = 'localhost';
@@ -13,7 +13,7 @@ if ( mysqli_connect_errno() ) {
 
 
 if ( !isset($_POST['email'], $_POST['password']) ) {
-	exit('Please Fill Both The  Email and Password Fields!');
+	exit('Please fill both the email and password fields!');
 }
 
 
@@ -30,16 +30,13 @@ if ($stmt = $con->prepare('SELECT Customer_ID, password FROM user WHERE email = 
             $_SESSION['name'] = $_POST['email'];
             $_SESSION['Customer_ID'] = $Customer_ID;
             header('Location: profilepage.php');
-                }
-                
-        else {
-            echo 'Incorrect Email Or Password!';
-            }
-    }
-    else {
-        echo 'Incorrect Email Or Password!';
+                } else {
+            echo 'Incorrect email and/or password!';
+        }
+    } else {
+        echo 'Incorrect email and/or password!';
     }
 
-$stmt->close();
+	$stmt->close();
 }
 ?>

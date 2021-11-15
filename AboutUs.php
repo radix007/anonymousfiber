@@ -8,7 +8,7 @@
     <meta property="og:site_name" content="Anonymous Fiber">
     <meta name="twitter:site" content="@anonymous">
     <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="AboutUs.php">
+    <meta property="og:url" content="AboutUs.html">
     <meta property="og:title" content="Get  the fastest Anonymous Fiber">
     <link rel="icon" href="images/anonymous_fox.jpg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap" rel="stylesheet">

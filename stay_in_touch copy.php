@@ -9,7 +9,7 @@
   <meta property="og:site_name" content="Anonymous Fiber">
   <meta name="twitter:site" content="@anonymous">
   <meta property="og:locale" content="en_US">
-  <meta property="og:url" content="stay_in_touch copy.php">
+  <meta property="og:url" content="index.html">
   <meta property="og:title" content="Get the fastest Anonymous Fiber">
   <link rel="icon" href="images/anonymous_fox.jpg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -70,6 +70,24 @@
   </section>
 
   >
+  <!-- 
+<div id="myModal" class="modal"> -->
+
+  <!-- Modal content -->
+  <!--
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 style="text-align : center; color: #444;"> Spread the word.</h2>
+    </div>
+    <div class="modal-body">
+    <h3>
+    <mat-icon class="mat-icon notranslate material-icons mat-icon-no-color" role="img" aria-hidden="true" data-mat-icon-type="font"></mat-icon>
+    <br> Thanks for your interest!</h3>
+    </div>
+</div>
+</div>-->
+
   <script>
     function myFunction() {
 
@@ -78,3 +96,25 @@
   </script>
 
 
+  <!--
+<script>
+var modal = document.getElementById("myModal");
+
+var btn = document.getElementById("myBtn");
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>-->
