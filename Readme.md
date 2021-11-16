@@ -9,3 +9,6 @@
 # Contributing🏗 ::
 
 Please check out the [contributing.md](contributing.md) guide on how you can actively participate in the development of this web development project.
+
+
+$2y$10$dC9jihSJI8JcWCPmd3kwDO032z/HtU3.GeDzY7opLCssoqvYm6Yqe

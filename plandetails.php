@@ -1,9 +1,10 @@
 <?php
 
 
+
 $DATABASE_HOST = 'localhost';
-$DATABASE_USER = 'root';
-$DATABASE_PASS = 'rootpw';
+$DATABASE_USER = 'Fiber_User';
+$DATABASE_PASS = 'anonymousfiber';
 $DATABASE_NAME = 'Anonymous_Fiber';
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 if (mysqli_connect_errno()) {
