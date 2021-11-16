@@ -100,7 +100,7 @@
                  <div class="swiper-wrapper">
                     <!--==================== DISCOVER 1 ====================-->
                 <div class="discover__card swiper-slide">
-                        <img src="images/Delhi.jpg" alt="" class="discover__img">
+                        <img src="images/delhi.jpg" alt="" class="discover__img">
                         <div class="discover__data">
                             <h2 class="discover__title">DELHI</h2>
                             <span class="discover__description"> <p>National Capital leading from front.<br> Over 10 million users</p></span>
@@ -108,15 +108,15 @@
                 </div>
                 <!--==================== DISCOVER 2 ====================-->
                 <div class="discover__card swiper-slide">
-                        <img src="images/Mumbai.jpg" alt="" class="discover__img">
+                        <img src="images/mumbai.jpg" alt="" class="discover__img">
                         <div class="discover__data">
                             <h2 class="discover__title">MUMBAI</h2>
-                            <span class="discover__description"><p>Hai Mushkil jina yahan? Not anymore.<br> Over 5 million users</p></span>
+                            <span class="discover__description"><p>The city is one of the world's top centers of commerce in terms of financial flow.<br> Over 5 million users</p></span>
                         </div>
                 </div>
                 <!--==================== DISCOVER 3 ====================-->
                 <div class="discover__card swiper-slide">
-                        <img src="images/Bangalore.jpg" alt="" class="discover__img">
+                        <img src="images/bangalore.jpg" alt="" class="discover__img">
                         <div class="discover__data">
                             <h2 class="discover__title">BANGALORE</h2>
                             <span class="discover__description"> <p>Silicon Valley Of India forging ahead at super speed.<br> Over 3 million users</p></span>
@@ -124,10 +124,10 @@
                 </div>
                 <!--==================== DISCOVER 4 ====================-->
                 <div class="discover__card swiper-slide">
-                        <img src="images/Kolkata.jpg" alt="" class="discover__img">
+                        <img src="images/kolkata.jpg" alt="" class="discover__img">
                         <div class="discover__data">
                             <h2 class="discover__title">KOLKATA</h2>
-                            <span class="discover__description"> <p>Kolkata main ab sab mauj manata.<br> Over 2 million users</p></span>
+                            <span class="discover__description"> <p>Kolkata has been regarded as one of the most important cities in India ever since the East India Company set base in Bengal.<br> Over 2 million users</p></span>
                         </div>
                 </div>
                 <!--==================== DISCOVER 5 ====================-->
