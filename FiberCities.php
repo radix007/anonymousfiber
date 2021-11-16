@@ -134,8 +134,8 @@
                 <div class="discover__card swiper-slide">
                         <img src="images/Chennai.jpg" alt="" class="discover__img">
                         <div class="discover__data">
-                            <h2 class="discover__title">CHENNAI</h2>
-                            <span class="discover__description">  <p>Covering all major areas of South India.<br> Over 1 million users</p></span>
+                            <h2 class="discover__title">DEHRADUN</h2>
+                            <span class="discover__description">  <p>Dehradun is a gateway to some of the most popular hill stations in the country like Nainital and Mussoorie.<br> Over 1 million users</p></span>
                         </div>
                 </div>                
              </div>
