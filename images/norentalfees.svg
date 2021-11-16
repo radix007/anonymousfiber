@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="71px" viewBox="0 0 55 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" jetway-hooks="{}">
+    <title>single wifipuckSMB icons2</title>
+    <defs>
+        <polygon id="path-1" points="0.141819 0.297814815 40.796599 0.297814815 40.796599 11.8683889 0.141819 11.8683889"></polygon>
+    </defs>
+    <g jetway-hook-id="9B4EE40A-F85B-4104-9759-7853A5B24A3F" id="SMB-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g jetway-hook-id="7F411933-0D69-47FD-9854-2AF83BC05A01" id="SMB--Reskin--Icon-Design-Updates-R2" transform="translate(-829.000000, -2357.000000)">
+            <g jetway-hook-id="B8C8E972-A1DC-4D88-8733-C53757BD953B" id="single-wifipuck" transform="translate(829.000000, 2357.000000)">
+                <g jetway-hook-id="AAC2BE62-A869-456A-A4B5-62E5D3EC7841" id="wifi-puck" transform="translate(0.000000, 31.000000)">
+                    <line x1="0.721268382" y1="18.1658557" x2="54.1796507" y2="18.1658557" jetway-hook-id="2DE76239-A5F8-497F-BCC4-4CF978141855" id="Stroke-16" stroke="#2C83FC" stroke-width="3"></line>
+                    <path d="M0,36 L55,36 L55,0 L0,0 L0,36 Z M1.78676471,34.2371134 L52.7867647,34.2371134 L52.7867647,2.2371134 L1.78676471,2.2371134 L1.78676471,34.2371134 Z" jetway-hook-id="3BE4679C-E7C6-4900-9356-6FF483F4FCE9" id="Fill-18" fill="#0D652D"></path>
+                    <path d="M49.8796213,35.0943918 L5.12498897,35.0943918 L8.19528309,39.6725361 L46.9120478,39.6725361 L49.8796213,35.0943918 Z M46.124989,36.0943918 L44.8358944,38.0943918 L9.45842961,38.0943918 L8.12498897,36.0943918 L46.124989,36.0943918 Z" jetway-hook-id="47652BC8-3587-4C4B-A11B-C01D7FC3F3BE" id="Fill-20" fill="#0D652D"></path>
+                </g>
+                <g jetway-hook-id="1AB5156C-9F8D-4A5F-9C37-773CC70BED52" id="wifi-signal" transform="translate(6.000000, 0.000000)">
+                    <path d="M12.964774,21.9321667 C14.714244,20.3445 17.146364,19.0676852 20.470644,19.0676852 C23.794104,19.0676852 26.225814,20.3449074 27.975284,21.9337963 L30.626344,19.2995 C28.190944,17.0506111 24.851494,15.3134259 20.470644,15.3134259 C16.088974,15.3134259 12.749114,17.0497963 10.313714,19.2978704 L12.964774,21.9321667 Z" jetway-hook-id="8E2C0061-EFBC-46B0-94C1-0C8091ED2B1F" id="Fill-9" fill="#34A853"></path>
+                    <path d="M7.775322,16.7755296 C10.021302,14.3005296 13.973292,11.5594926 20.470562,11.5594926 C26.965782,11.5594926 30.916952,14.3013444 33.163342,16.7783815 L35.838592,14.1200481 C33.027632,11.0632704 28.218742,7.80564074 20.470562,7.80564074 C12.720332,7.80564074 7.911032,11.062863 5.100482,14.1180111 L7.775322,16.7755296 Z" jetway-hook-id="C0BB5EDD-31B5-40CF-830C-6BBE7AF6EC0A" id="Fill-11" fill="#34A853"></path>
+                    <g jetway-hook-id="ABDA9BFE-BA33-4C64-9E4A-F961A1CF064D" id="Group-15" transform="translate(0.000000, -0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g jetway-hook-id="9E3D0483-55ED-4757-A600-D802F8D7B7D4" id="Clip-14"></g>
+                        <path d="M2.833469,11.8651296 C5.058949,8.87638889 10.233559,4.05146296 20.470849,4.05146296 C30.702809,4.05146296 35.877419,8.87598148 38.104539,11.8683889 L40.796599,9.19335185 C37.901179,5.51568519 31.799149,0.297611111 20.470849,0.297611111 C9.137219,0.297611111 3.035189,5.51568519 0.141819,9.1905 L2.833469,11.8651296 Z" jetway-hook-id="5B251794-0120-4D62-99DA-A992AA816796" id="Fill-13" fill="#34A853" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
