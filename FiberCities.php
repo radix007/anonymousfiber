@@ -106,7 +106,7 @@
                         <img src="images/Mumbai.jpg" alt="" class="discover__img">
                         <div class="discover__data">
                             <h2 class="discover__title">MUMBAI</h2>
-                            <span class="discover__description"><p>Hai Mushkil jina yahan? Not anymore.<br> Over 5 million users</p></span>
+                            <span class="discover__description"><p>The city is one of the world's top centers of commerce in terms of financial flow.<br> Over 5 million users</p></span>
                         </div>
                 </div>
                 <!--==================== DISCOVER 3 ====================-->
@@ -122,15 +122,15 @@
                         <img src="images/Kolkata.jpg" alt="" class="discover__img">
                         <div class="discover__data">
                             <h2 class="discover__title">KOLKATA</h2>
-                            <span class="discover__description"> <p>Kolkata main ab sab mauj manata.<br> Over 2 million users</p></span>
+                            <span class="discover__description"> <p>Kolkata has been regarded as one of the most important cities in India ever since the East India Company set base in Bengal.<br> Over 2 million users</p></span>
                         </div>
                 </div>
                 <!--==================== DISCOVER 5 ====================-->
                 <div class="discover__card swiper-slide">
-                        <img src="images/Chennai.jpg" alt="" class="discover__img">
+                        <img src="images/dehradun.jpg" alt="" class="discover__img">
                         <div class="discover__data">
-                            <h2 class="discover__title">CHENNAI</h2>
-                            <span class="discover__description">  <p>Covering all major areas of South India.<br> Over 1 million users</p></span>
+                            <h2 class="discover__title">DEHRADUN</h2>
+                            <span class="discover__description"><p>Dehradun is a gateway to some of the most popular hill stations in the country like Nainital and Mussoorie.<br> Over 1 million users</p></span>
                         </div>
                 </div>                
              </div>
