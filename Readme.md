@@ -72,26 +72,26 @@ The source code of this project is written in **PHP**. So, you'll require **LAMM
 > Once you have installed LAMP, follow the subsequent steps:
 
 ```
- git clone https://github.com/radix007/anonymousfiber.git
- sudo cp -r anonymousfiber/ /var/www/html
+> git clone https://github.com/radix007/anonymousfiber.git
+> sudo cp -r anonymousfiber/ /var/www/html
 ```
 
 - Create a new mysql/mariadb user:
 
 ```
- sudo systemctl start mysql.service
+> sudo systemctl start mysql.service
 
- sudo mysql -u root -p
+> sudo mysql -u root -p
 
- CREATE USER 'Fiber_User'@'localhost' IDENTIFIED BY 'anonymousfiber';
+> CREATE USER 'Fiber_User'@'localhost' IDENTIFIED BY 'anonymousfiber';
 
- GRANT ALL PRIVILEGES ON *.* TO 'Fiber_User'@'localhost' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
+> GRANT ALL PRIVILEGES ON *.* TO 'Fiber_User'@'localhost' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
 
 ** For Arch/Manjaro **
- sudo systemctl start httpd.service
+> sudo systemctl start httpd.service
 
 ** For Debian/Ubuntu/Kali Linux **
- sudo systemctl start apache2
+> sudo systemctl start apache2
 ```
 
 - Now navigate to youripaddress/anonymousfiber (this assumes that your LAMP/WAMP document root is /var/www/html and that you copied the anonymousfiber folder to the above path)
