@@ -5,7 +5,7 @@
 ```
 L -> Linux
 A -> Apache
-M -> MySql/ Mariadb
+M -> MySql/Mariadb
 P -> PHP
 ```
 
@@ -65,41 +65,43 @@ https://user-images.githubusercontent.com/47687097/142181086-f92f6a0a-94e3-4f03-
 
 The source code of this project is written in **PHP**. So, you'll require **LAMMP/XAMPP/MAMP/WAMP** to run this project.
 
-# Installation (Linux system)::
+# Installation (Linux system) ::
 
 - Check out [this](https://www.tecmint.com/install-lamp-with-phpmyadmin-in-ubuntu-20-04/) guide to install LAMP
 
 > Once you have installed LAMP, follow the subsequent steps:
 
 ```
-> git clone https://github.com/radix007/anonymousfiber.git
-> sudo cp -r anonymousfiber/ /var/www/html
+ git clone https://github.com/radix007/anonymousfiber.git
+ sudo cp -r anonymousfiber/ /var/www/html
 ```
 
 - Create a new mysql/mariadb user:
 
 ```
-> sudo systemctl start mysql.service
+ sudo systemctl start mysql.service
 
-> sudo mysql -u root -p
+ sudo mysql -u root -p
 
-> CREATE USER 'Fiber_User'@'localhost' IDENTIFIED BY 'anonymousfiber';
+ CREATE USER 'Fiber_User'@'localhost' IDENTIFIED BY 'anonymousfiber';
 
-> GRANT ALL PRIVILEGES ON *.* TO 'Fiber_User'@'localhost' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
+ GRANT ALL PRIVILEGES ON *.* TO 'Fiber_User'@'localhost' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
 
 ** For Arch/Manjaro **
-> sudo systemctl start httpd.service
+ sudo systemctl start httpd.service
 
 ** For Debian/Ubuntu/Kali Linux **
-> sudo systemctl start apache2
+ sudo systemctl start apache2
 ```
 
 - Now navigate to youripaddress/anonymousfiber (this assumes that your LAMP/WAMP document root is /var/www/html and that you copied the anonymousfiber folder to the above path)
 
 ```
-Type this in your browser here. You can replace 127.0.0.1 with your IP address.
+Type the below link in your browser. You can replace 127.0.0.1 with your IP address.
 
-> 127.0.0.1/anonymousfiber
+ 127.0.0.1/anonymousfiber
+
+** anonymousfiber homepage should open up right now. If it is not opening right now please make sure you have followed the steps above properly or pull an issue.
 ```
 
 - Create Anonymous_Fiber Database:
@@ -123,6 +125,17 @@ For Example:
 
 ```
 
+# Credentials for Sign In Page ::
+
+```
+ Username : mikeross@anonymousfiber.com
+
+ Password : test
+
+```
+
+![Sign In Page Screenshot](Media/signinpage.png)
+
 # Contributing ::
 
 Please check out the [contributing.md](contributing.md) guide on how you can actively participate in the development of this web development project.
@@ -130,11 +143,3 @@ Please check out the [contributing.md](contributing.md) guide on how you can act
 # License ![GitHub](https://img.shields.io/badge/license-GPL--3.0%20License%20-blue)
 
 This project is licensed under the GNU General Public License v3.0 - see the [License.md](https://github.com/radix007/anonymousfiber/blob/testing/LICENSE) file for more details.
-
-```
-
-```
-
-```
-
-```
