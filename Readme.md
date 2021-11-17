@@ -15,6 +15,12 @@ P -> PHP
 
 https://user-images.githubusercontent.com/47687097/142181086-f92f6a0a-94e3-4f03-bfb7-ccd45544e432.mp4
 
+# What Out Customers Say :rofl: ::
+
+> Naruto Uzumaki And Sherlock Holmes have been using our services for a long time now and that's why they are so good at what they do :laughing: .
+
+![Testimonial Screenshot](Media/testimonials.png)
+
 # Core Features ::
 
 - Well Planned Information Architecture
