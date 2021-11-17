@@ -16,6 +16,10 @@ information on using pull requests.
 This project follows
 [Google's Open Source Community Guidelines](https://opensource.google.com/conduct/).
 
+# Creating an issue ::
+
+If there’s something you’d like to see in the docs, but you’re not sure how to fix it yourself, please create an issue in this repository. You can also create an issue about a specific page by clicking the Create Issue button in the top right hand corner of the page.
+
 # How to contribute ::
 
 Fork this repo. Make changes and then push to your fork and then submit a pull request.

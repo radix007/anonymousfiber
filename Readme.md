@@ -20,9 +20,3 @@ Please check out the [contributing.md](contributing.md) guide on how you can act
 # License ![GitHub](https://img.shields.io/badge/license-GPL--3.0%20License%20-blue)
 
 This project is licensed under the GNU General Public License v3.0 - see the [License.md](https://github.com/radix007/anonymousfiber/blob/testing/LICENSE) file for more details.
-
-#
-
-# Creating an issue ::
-
-If there’s something you’d like to see in the docs, but you’re not sure how to fix it yourself, please create an issue in this repository. You can also create an issue about a specific page by clicking the Create Issue button in the top right hand corner of the page.
