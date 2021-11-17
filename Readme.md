@@ -73,6 +73,7 @@ The source code of this project is written in **PHP**. So, you'll require **LAMM
 
 ```
 > git clone https://github.com/radix007/anonymousfiber.git
+
 > sudo cp -r anonymousfiber/ /var/www/html
 ```
 
