@@ -2,7 +2,7 @@
 
 **This is a web development project made with LAMP stack. Our mission while developing this website was to ensure the Internet becomes a global public resource that is open and accessible to all. An Internet that truly puts people's privacy and security first, where individuals can shape their own experience.**
 
-> Anonymous Fiber is currently deployed using an Azure Instance and is up and running. You can see the live version by clicking [here](https://radix007.github.io/anonymousfiber/)
+> Anonymous Fiber is currently deployed using an Azure Instance and is up and running. You can see the live version by clicking [here](http://20.204.45.19/anonymousfiber.com/)
 
 ```
 L -> Linux
